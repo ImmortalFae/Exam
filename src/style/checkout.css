@@ -1,0 +1,104 @@
+.checkout-section {
+    margin: 50px 0px;
+    width: 100%;
+}
+
+.checkout-content {
+    display: flex;
+    gap: 110px;
+}
+
+.checkout-content h2 {
+    font-size: 24px;
+    font-family: 700;
+    margin-bottom: 30px;
+}
+
+.checkout-content .billing {
+    width: 60%;
+}
+
+.checkout-content .billing form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.checkout-content .billing form .input-wrapper {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.checkout-content .billing form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-content .billing form label p {
+    font-size: 14px;
+    color: black;
+
+}
+
+.checkout-content .billing form label p span {
+    color: tomato;
+}
+
+.checkout-content .billing form label input,.checkout-content .billing form label textarea  {
+    border: 1px solid #d5d8db;
+    height: 50px;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    padding: 0px 26px;
+}
+
+.checkout-content .billing form label textarea {
+    height: 200px;
+}
+
+
+.checkout-content .your-order {
+    width: 40%;
+
+}
+
+.checkout-content .your-order .order {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkout-content .your-order .order p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding: 15px 0px;
+}
+
+.checkout-content .your-order .order p:not(:last-child) {
+    border-bottom: 1px solid #e0e2e3;
+}
+
+.checkout-content .your-order .order p b {
+    font-weight: 700;
+}
+
+.checkout-content .your-order .order button {
+    width: 100%;
+    background-color: #0989ff;
+    color: white;
+    height: 50px;
+    padding: 0px 30px;
+    line-height: 50px;
+    transition: background-color .3s ease-in-out;
+    border: none;
+    outline: none;
+}
+
+.checkout-content .your-order .order button:hover {
+    background-color: rgb(1 15 28);
+}

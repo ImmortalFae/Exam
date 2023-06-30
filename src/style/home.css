@@ -1,0 +1,65 @@
+.swiper {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.swiper-slide {
+    background-color: #115061;
+}
+.swiper-slide .container {
+    height: 100%;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+    color: white;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: white;
+}
+
+.swiper-slide .slide-img {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.slide-section{
+    gap: 50px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;    
+}
+
+.slide-section .slide-content {
+    width: 50%;
+}
+
+.slide-section .slide-content h1 ,.slide-section .slide-content p{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.slide-section .slide-content h1 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.slide-section .slide-content p {
+    font-size: 16px;
+}
+
+.slide-section .slide-content button {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+}
+
+.slide-section .slide-content button i {
+    font-size: 16px;
+}

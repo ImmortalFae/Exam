@@ -1,0 +1,106 @@
+.contact-section {
+    padding: 100px 0px;
+    height: calc(100vh - 68px);
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-content h2 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-content .contact-info {
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: 3fr 1fr;
+}
+
+.contact-content .contact-info form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.contact-content .contact-info form .input-wrapper {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-content .contact-info form label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-content .contact-info form label p {
+    font-size: 14px;
+    color: black;
+}
+
+.contact-content .contact-info form label p span {
+    color: tomato;
+}
+
+.contact-content .contact-info form label input,.contact-content .contact-info form label textarea  {
+    border: 1px solid #d5d8db;
+    height: 50px;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    padding: 0px 26px;
+}
+
+.contact-content .contact-info form label textarea {
+    height: 200px;
+}
+
+.contact-content .contact-info form button {
+    background-color: rgb(1 15 28);
+    color: white;
+    height: 50px;
+    padding: 0px 30px;
+    line-height: 50px;
+    transition: background-color .3s ease-in-out;
+    border: none;
+    outline: none;
+}
+
+.contact-content .contact-info form button:hover {
+    background-color:#0989ff;
+}
+
+.contact-content .contact-info .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-content .contact-info .contact-details .details-item {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-content .contact-info .contact-details .details-item img {
+    width: 70px;
+}
+
+.contact-content .contact-info .contact-details .details-item p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.contact-content .contact-info .contact-details .details-item h4 {
+    font-size: 16px;
+    font-weight: 700;
+}

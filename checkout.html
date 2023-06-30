@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/style/style.css">
-    <link rel="stylesheet" href="./src/style/product.css">
+    <link rel="stylesheet" href="./src/style/checkout.css">
     <link rel="stylesheet" href="./src/style/responsive.css">
 </head>
 <body>
@@ -71,12 +71,87 @@
       </div>
     </header>
     
-    <section class="product-section">
-        <div class="container">
-            <div class="product-details" id="product-details">
-                
+    <section class="checkout-section">
+      <div class="container">
+        <div class="checkout-content">
+          <div class="billing">
+            <h2>Billing Details</h2>
+            <form>
+              <div class="input-wrapper">
+                <label>
+                  <p>First Name <span>*</span></p>
+                  <input type="text" placeholder="First Name" />
+                </label>
+                <label>
+                  <p>Lastn Name <span>*</span></p>
+                  <input type="text" placeholder="Last Name" />
+                </label>
+              </div>
+              <label>
+                <p>Country <span>*</span></p>
+                <input type="text" placeholder="Country" />
+              </label>
+              <label>
+                <p>Street address <span>*</span></p>
+                <input type="text" placeholder="Street address" />
+              </label>
+              <div class="input-wrapper">
+                <label>
+                  <p>Town/City <span>*</span></p>
+                  <input type="text" placeholder="City" />
+                </label>
+                <label>
+                  <p>Postcode ZIP <span>*</span></p>
+                  <input type="text" placeholder="Postcode ZIP" />
+                </label>
+              </div>
+              <label>
+                <p>Phone <span>*</span></p>
+                <input type="number" placeholder="Phone" />
+              </label>
+              <label>
+                <p>Email address <span>*</span></p>
+                <input type="email" placeholder="Email" />
+              </label>
+              <label>
+                <p>Order notes (optional)</p>
+                <textarea placeholder="Notes about your order"></textarea>
+              </label>
+            </form>
+          </div>
+          <div class="your-order">
+            <h2>Your Order</h2>
+            <div class="order">
+              <p>
+                <b>Product</b>
+                <b>Total</b>
+              </p>
+              <div class="order-items" id="order-items">
+              </div>
+              <p>
+                <span>Shipping</span>
+                <span id="shipping-price">$10</span>
+              </p>
+              <p>
+                <span>Subtotal</span>
+                <span id="subtotal">$0.00</span>
+              </p>
+              <p>
+                <span>Discount</span>
+                <span id="discount">$50.00</span>
+              </p>
+              <p>
+                <b>Total</b>
+                <b id="order-total">$0.00</b>
+              </p>
+
+              <button type="button">
+                Place Order
+              </button>
             </div>
+          </div>
         </div>
+      </div>
     </section>
     
     <div class="cart-content" id="cart-content">
@@ -106,6 +181,7 @@
         </div>
       </footer>
   </div>
+
   <div class="carts-back" id="carts-back"></div>
   
 
